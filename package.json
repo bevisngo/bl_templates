@@ -1,0 +1,22 @@
+{
+  "name": "template-printing-tool",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main.js"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "axios": "^1.6.8",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.0",
+    "pdfkit": "^0.14.0",
+    "qrcode": "^1.5.3",
+    "svg-to-pdfkit": "^0.1.8",
+    "text-to-svg": "^3.1.5"
+  }
+}
