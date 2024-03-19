@@ -1,4 +1,11 @@
 ## Generate & Convert information from payload to PDF (base on SVG) files
+
+### Installation
+- Clone this repository to your local directory
+- Run: ```yarn install``` or ```npm install```
+- Run: ```yarn start``` or ```npm start```
+  - PORT: 3000
+
 ### Usage (For each template)
 #### Template 1
 <!-- ![plot](./directory_1/directory_2/.../directory_n/plot.png) -->
