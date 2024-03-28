@@ -26,7 +26,7 @@ const backPath = "assets/backgrounds/01_Back.svg";
 const forcePath = "assets/backgrounds/01_Front.svg";
 
 
-template1Router.get("/tempate1", async (req, res) => {
+template1Router.get("/template1", async (req, res) => {
   try {
     fs.readFile(forcePath, "utf8", async (forcegroundErr, forceground) => {
       fs.readFile(backPath, "utf8", async (backgroundErr, background) => {

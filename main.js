@@ -10,6 +10,7 @@ app.use(express.json());
 app.use("/", router);
 // endpoints
 app.use("/api", routers.template1Router);
+app.use("/api", routers.template2Router);
 
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
