@@ -13,10 +13,13 @@
     "axios": "^1.6.8",
     "express": "^4.18.3",
     "fs": "^0.0.1-security",
+    "i": "^0.3.7",
     "nodemon": "^3.1.0",
+    "npm": "^10.5.0",
     "pdfkit": "^0.14.0",
     "qrcode": "^1.5.3",
     "svg-to-pdfkit": "^0.1.8",
+    "svg2pdf": "^1.1.1",
     "text-to-svg": "^3.1.5"
   }
 }
