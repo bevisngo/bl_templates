@@ -46,3 +46,19 @@
         ]
     }
   ```
+
+#### Check for redundant elements.
+<!-- ![plot](./directory_1/directory_2/.../directory_n/plot.png) -->
+- **step-by-step**:
+  - Copy all of the SVG files exported from the designers into the ```test/assets/input``` directory.
+  - Run this command on the root dir**: ```node test/cases/ checking.js```
+  - Check the result in the ```test/assets/output``` directory
+  - Example result:
+  ```
+    ➜  template-printing-tool git:(master) node test/cases/ checking.js  
+
+    Converted test/assets/input/01_Back_hor.svg to PDF
+    Converted test/assets/input/01_Front.svg to PDF
+    Converted test/assets/input/01_Front_or.svg to PDF
+    Converted test/assets/input/01_Back.svg to PDF
+  ```
